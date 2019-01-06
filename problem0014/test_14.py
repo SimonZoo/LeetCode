@@ -1,0 +1,17 @@
+import unittest
+
+from .longest_common_prefix import Solution
+
+class TestCommonPrefix(unittest.TestCase):
+    def test_1(self):
+        s = Solution()
+        input_list = ["flower","flow","flight"]
+        output = "fl"
+        self.assertEqual(s.longestCommonPrefix(input_list), output)
+
+    def test_2(self):
+        s = Solution()
+        input_list = ["dog","racecar","car"]
+        output = ""
+        self.assertEqual(s.longestCommonPrefix(input_list), output)
+        
