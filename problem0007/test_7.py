@@ -20,4 +20,11 @@ class TestReverse(unittest.TestCase):
         input_int = 120
         output = 21
         self.assertEqual(s.reverse(input_int), output)
+
+    def test_4(self):
+        s = Solution()
+        input_int = 1234567891234
+        output = 0
+        self.assertEqual(s.reverse(input_int), output)
+
     
