@@ -2,7 +2,7 @@ import unittest
 
 from .sqrtx import Solution
 
-class TestSqurt(unittest.TestCase):
+class TestSqrt(unittest.TestCase):
     def test_1(self):
         s = Solution()
         input_n = 4
